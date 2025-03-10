@@ -33,9 +33,14 @@ const Navbar: React.FC<NavbarProps> = ({ className }) => {
       <div className="mx-auto max-w-7xl flex items-center justify-between">
         <a 
           href="#" 
-          className="text-xl font-semibold tracking-tight z-10"
+          className="z-10"
         >
-          butler.io
+          {/* Replace with your logo - adjust width/height as needed */}
+          <img 
+            src="/your-logo.png" 
+            alt="Logo" 
+            className="h-10 w-auto" 
+          />
         </a>
 
         {/* Desktop Navigation */}
