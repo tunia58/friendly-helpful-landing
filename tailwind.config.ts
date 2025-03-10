@@ -62,7 +62,20 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				wine: {
+					'50': '#fcf5f7',
+					'100': '#f9eaee',
+					'200': '#f5d5dd',
+					'300': '#ecb3c1',
+					'400': '#e18a9e',
+					'500': '#d4687e',
+					'600': '#ba3f58',
+					'700': '#9a2e45',
+					'800': '#7a1f38',
+					'900': '#651d32',
+					'950': '#3d0a1a',
+				},
 			},
 			borderRadius: {
 				lg: 'var(--radius)',

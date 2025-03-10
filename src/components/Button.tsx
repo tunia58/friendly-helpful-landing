@@ -19,9 +19,9 @@ const Button: React.FC<ButtonProps> = ({
   
   const variantStyles = {
     default: 'bg-primary text-primary-foreground hover:opacity-90 active:transform active:scale-95',
-    outline: 'border border-input bg-background hover:bg-accent hover:text-accent-foreground active:transform active:scale-95',
-    ghost: 'hover:bg-accent hover:text-accent-foreground active:transform active:scale-95',
-    minimal: 'text-foreground hover:text-primary hover:underline underline-offset-4 active:transform active:scale-95',
+    outline: 'border border-primary/30 bg-transparent hover:bg-primary/10 hover:text-primary active:transform active:scale-95 text-primary-foreground',
+    ghost: 'hover:bg-primary/10 hover:text-primary active:transform active:scale-95 text-primary-foreground',
+    minimal: 'text-primary-foreground hover:text-primary hover:underline underline-offset-4 active:transform active:scale-95',
   };
   
   const sizeStyles = {
