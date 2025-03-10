@@ -240,6 +240,11 @@
   background: linear-gradient(to bottom right, rgba(122, 24, 45, 0.7), rgba(20, 20, 20, 0.9));
 }
 
+/* New specific dark wine gradient as requested */
+.dark-wine-gradient {
+  background: linear-gradient(45deg, #8b0000, #000000);
+}
+
 @keyframes blob-move {
   0% {
     transform: translate(0, 0) scale(1);

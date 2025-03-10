@@ -18,10 +18,10 @@ const Button: React.FC<ButtonProps> = ({
   const baseStyle = 'inline-flex items-center justify-center rounded-lg font-medium transition-all duration-200 ease-out focus:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 button-hover-effect';
   
   const variantStyles = {
-    default: 'bg-primary text-primary-foreground hover:opacity-90 active:transform active:scale-95',
-    outline: 'border border-primary/30 bg-transparent hover:bg-primary/10 hover:text-primary active:transform active:scale-95 text-primary-foreground',
-    ghost: 'hover:bg-primary/10 hover:text-primary active:transform active:scale-95 text-primary-foreground',
-    minimal: 'text-primary-foreground hover:text-primary hover:underline underline-offset-4 active:transform active:scale-95',
+    default: 'bg-wine-800 hover:bg-wine-900 text-white active:transform active:scale-95',
+    outline: 'border border-wine-800/30 bg-transparent hover:bg-wine-800/10 hover:text-wine-700 active:transform active:scale-95 text-primary-foreground',
+    ghost: 'hover:bg-wine-800/10 hover:text-wine-700 active:transform active:scale-95 text-primary-foreground',
+    minimal: 'text-primary-foreground hover:text-wine-700 hover:underline underline-offset-4 active:transform active:scale-95',
   };
   
   const sizeStyles = {

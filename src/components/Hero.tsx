@@ -46,7 +46,7 @@ const Hero: React.FC<HeroProps> = ({ className }) => {
     <section
       ref={heroRef}
       className={cn(
-        'relative min-h-screen flex flex-col items-center justify-center px-4 pt-24 pb-16 overflow-hidden wine-to-black-gradient',
+        'relative min-h-screen flex flex-col items-center justify-center px-4 pt-24 pb-16 overflow-hidden dark-wine-gradient',
         className
       )}
     >

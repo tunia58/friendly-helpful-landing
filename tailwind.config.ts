@@ -72,9 +72,9 @@ export default {
 					'500': '#d4687e',
 					'600': '#ba3f58',
 					'700': '#9a2e45',
-					'800': '#7a1f38',
-					'900': '#651d32',
-					'950': '#3d0a1a',
+					'800': '#8b0000', // Updated to match the specific dark red requested
+					'900': '#3d0a1a',
+					'950': '#1a0000', // Darkest shade close to black
 				},
 			},
 			borderRadius: {
